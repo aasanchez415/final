@@ -1,0 +1,546 @@
+body{
+
+  height:10000px;
+  width:1200px;
+  background: -webkit-linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+ background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+
+ }
+
+ #bird{
+   background-image: url("images/bird.png");
+   height:512px;
+   width: auto;
+ }
+
+#lighting{
+  background-image: url("images/lighting.png");
+  height:300px;
+  width:300px;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  border-radius:90%;
+  position: relative;
+  top:-160px;
+  left:1000px;
+  opacity:0;
+  z-index: 100;
+
+
+
+
+  animation-name:light;
+  animation-duration:37s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count:18.5s;
+}
+
+@keyframes light {
+  20% {transform: translate(-300px, 10px);opacity: 0;}
+  20.5% {transform: translate(-300px, 10px);opacity: 1;}
+  20.9% {transform: translate(-300px, 10px);opacity: 0;}
+  49% {transform: translate(-600px, 10px);opacity: 0;}
+  49.5% {transform: translate(-600px, 10px);opacity: 1;}
+  49.9% {transform: translate(-600px, 10px);opacity: 0;}
+
+
+
+
+
+}
+
+#lighting2{
+  background-image: url("images/lighting2.png");
+  height:300px;
+  width:300px;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  border-radius:90%;
+  position: relative;
+  top:-470px;
+  left:1000px;
+  opacity:0;
+  z-index: 100;
+
+
+
+
+  animation-name:light2;
+  animation-duration:37s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count:18.5s;
+}
+
+@keyframes light2 {
+  19% {transform: translate(-300px, 10px);opacity: 0;}
+  19.5% {transform: translate(-300px, 10px);opacity: 1;}
+  19.9% {transform: translate(-300px, 10px);opacity: 0;}
+  48% {transform: translate(-600px, 10px);opacity: 0;}
+  48.5% {transform: translate(-600px, 10px);opacity: 1;}
+  48.9% {transform: translate(-600px, 10px);opacity: 0;}
+}
+
+#cloud1{
+  background-image: url("images/smallcloud.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height:300px;
+  width:200px;
+
+  position: relative;
+  left:1000px;
+
+
+  animation-name:clouds;
+  animation-duration:37s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes clouds {
+  48% {transform: translate(-1000px, 10px);}
+  50% {transform: translate(-1000px, 10px);}
+      52% {transform: translate(-1000px, 10px);}
+
+}
+#cloud2{
+  background-image: url("images/bigcloud.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height:500px;
+  width:500px;
+
+
+
+  position: relative;
+  top: -900px;
+  right:0px;
+
+  animation-name:bigclouds;
+  animation-duration:80s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes bigclouds {
+  48% {transform: translate(1000px, 0px);}
+  50% {transform: translate(1000px, 0px);}
+      52% {transform: translate(1000px, 0px);}
+
+}
+
+#cloud3{
+  background-image: url("images/bigcloud.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height:500px;
+  width:500px;
+
+
+
+  position: relative;
+  top: -1000px;
+  right:200px;
+
+  animation-name:bigclouds;
+  animation-duration:80s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+#cloud4{
+  background-image: url("images/smallcloud.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height:300px;
+  width:300px;
+  border-radius:90%;
+  position: relative;
+    top: -1800px;
+  left:800px;
+
+  animation-name:clouds;
+  animation-duration:37s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+#cloud5{
+  background-image: url("images/smallcloud.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height:300px;
+  width:300px;
+  border-radius:90%;
+  position: relative;
+    top: -2000px;
+  left:100px;
+
+  animation-name:clouds1;
+  animation-duration:37s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes clouds1 {
+  48% {transform: translate(1000px, 0px);}
+  50% {transform: translate(1000px, 0px);}
+      52% {transform: translate(1000px, 0px);}
+}
+
+#cloud6{
+  background-image: url("images/hellaclouds.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height:1000px;
+  width:1000px;
+
+
+
+  position: relative;
+  top: -1800px;
+  right:0px;
+
+
+}
+
+#cloud7{
+  background-image: url("images/stillcloud.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height:1000px;
+  width:1000px;
+
+
+
+  position: relative;
+  top: -2900px;
+  right:-700px;
+
+
+}
+
+#cloud8{
+  background-image: url("images/stillcloud.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height:1000px;
+  width:1000px;
+
+
+
+  position: relative;
+  top: -4000px;
+  right:50px;
+
+
+}
+
+
+#cloud10{
+  background-image: url("images/stillcloud.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height:1000px;
+  width:1000px;
+
+
+
+  position: relative;
+  top: -4000px;
+  right:-500px;
+
+
+}
+
+#bird{
+
+  background-image: url("images/bird.gif");
+
+
+     background-repeat: no-repeat;
+     background-position: center center;
+
+     background-attachment: fixed;
+
+}
+
+#heading{
+  text-align: center;
+  color: white;
+	font-family: Copperplate;
+	font-size: 32px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 115.2px;
+
+
+}
+#heading2{
+
+  text-align: center;
+  color: white;
+	font-family: Copperplate;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 1px ;
+
+}
+
+#cloud11{
+  background-image: url("images/bigcloud.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height:500px;
+  width:500px;
+
+
+
+  position: relative;
+  top: -1000px;
+  right:200px;
+
+  animation-name:bigclouds;
+  animation-duration:80s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+#cloud12{
+  background-image: url("images/smallcloud.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height:300px;
+  width:300px;
+  border-radius:90%;
+  position: relative;
+    top: -2000px;
+  left:800px;
+
+  animation-name:clouds;
+  animation-duration:37s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+#cloud13{
+  background-image: url("images/smallcloud.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height:300px;
+  width:300px;
+  border-radius:90%;
+  position: relative;
+    top: -20000px;
+  left:100px;
+
+  animation-name:clouds1;
+  animation-duration:37s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+
+#cloud14{
+  background-image: url("images/hellaclouds.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height:300px;
+  width:600px;
+
+
+
+  position: relative;
+  top: -3800px;
+  right:0px;
+
+
+}
+
+#cloud15{
+  background-image: url("images/stillcloud.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height:1000px;
+  width:1000px;
+
+
+
+  position: relative;
+  top: -2900px;
+  right:-700px;
+
+
+}
+
+#cloud16{
+  background-image: url("images/stillcloud.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height:1000px;
+  width:1000px;
+
+
+
+  position: relative;
+  top: -4000px;
+  right:50px;
+
+
+}
+
+
+#cloud18{
+  background-image: url("images/stillcloud.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height:1000px;
+  width:1000px;
+
+
+
+  position: relative;
+  top: -9000px;
+  right:-500px;
+
+
+}
+#cloud19{
+  background-image: url("images/stillcloud.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height:400px;
+  width:400px;
+
+
+
+  position: relative;
+    top: -10500px;
+  right:-700px;
+
+
+}
+
+#cloud20{
+  background-image: url("images/stillcloud.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  height:400px;
+  width:400px;
+  top: -10500px;
+
+}
+
+
+.outer1 {
+  width: 2px;
+  height: 40px;
+  left:10px;
+  top:-300px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  animation-name:rain;
+  animation-duration:1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.outer2{
+  width: 2px;
+  height: 40px;
+    left:30px;
+    top:-10px;
+  margin: auto;
+  position: top;
+  overflow: hidden;
+  animation-name:rain;
+  animation-duration:1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}.outer3 {
+  width: 2px;
+  height: 40px;
+    left:40px;
+    top:-50px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  animation-name:rain;
+  animation-duration:1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.outer4 {
+  width: 2px;
+  height: 40px;
+    left:50px;
+    top:-2000px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  animation-name:rain;
+  animation-duration:1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.outer5 {
+  width: 2px;
+  height: 40px;
+    left:60px;
+    top:-1000px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  animation-name:rain;
+  animation-duration:1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+
+
+.inner {
+  position: absolute;
+  width:100%;
+  height: 40%;
+  background:  blue;
+  top: 10%;
+  box-shadow: 0px 0px 30px 20px grey;
+
+
+  animation-name:rain;
+    animation-duration:10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  .sky{
+    height:100%;
+  }
+
+  @keyframes rain {
+    0% {transform: translate(0px, 1px);}
+    100% {transform: translate(0px, 1000px);}
+
+
+}
+
+#poem1{
+  font-size: 25px;
+  color: red;
+
+}
+#poem2{
+  font-size: 30px;
+  color: red;
+  position: right;
+
+}
